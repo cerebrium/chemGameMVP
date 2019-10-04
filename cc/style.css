@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+button {
+    display: flex;
+    flex-flow: column;
+    width: 15vw;
+    height: 15vh;
+    border-radius: 20%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.collisionLines {
+    position: absolute;
+    background: black;
+}
+
+#hydrogenButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: yellow;
+    font-size: 1.5em;
+}
+
+#oxygenButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: teal;
+    font-size: 1.5em;
+}
+
+#carbonButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    font-size: 1.5em;
+}
+
+#nitrogenButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    font-size: 1.5em;
+}
+
+.hydrogen {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.oxygen {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.nitrogen {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.carbon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.collision {
+    background: black;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+img {
+    position: absolute;
+    left: 50vw;
+    bottom: 1vh;
+    height: 300px;
+    width: 300px;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: white;
+    font-size: 1.5em;
+}
